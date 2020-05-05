@@ -1,0 +1,81 @@
+{
+  "Name": {
+    "type": "string",
+    "value": "World"
+  },
+  "Sectors": {
+    "type": "table",
+    "value": [
+      {
+        "type": "table",
+        "class": "Sector",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Sector1"
+          },
+          "Entities": {
+            "type": "table",
+            "value": [
+              {
+                "type": "table",
+                "class": "Entity",
+                "value": {
+                  "Name": {
+                    "type": "string",
+                    "value": "Entity1"
+                  }
+                }
+              },
+              {
+                "type": "table",
+                "class": "Entity",
+                "value": {
+                  "Name": {
+                    "type": "string",
+                    "value": "Entity2"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "table",
+        "class": "Sector",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Sector2"
+          },
+          "Entities": {
+            "type": "table",
+            "value": [
+              {
+                "type": "table",
+                "class": "TestEntity",
+                "value": {
+                  "Name": {
+                    "type": "string",
+                    "value": "TestEntity"
+                  }
+                }
+              },
+              {
+                "type": "table",
+                "class": "Entity",
+                "value": {
+                  "Name": {
+                    "type": "string",
+                    "value": "Entity3"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

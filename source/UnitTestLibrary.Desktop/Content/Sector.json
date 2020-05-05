@@ -1,0 +1,37 @@
+{
+  "Sector": {
+    "type": "table",
+    "class":  "Sector",
+    "value": {
+      "Name": {
+        "type": "string",
+        "value": "Sector1"
+      },
+      "Entities": {
+        "type": "table",
+        "value": [
+          {
+            "type": "table",
+            "class": "Entity",
+            "value": {
+              "Name": {
+                "type": "string",
+                "value": "Entity1"
+              }
+            }
+          },
+          {
+            "type": "table",
+            "class": "Entity",
+            "value": {
+              "Name": {
+                "type": "string",
+                "value": "Entity2"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

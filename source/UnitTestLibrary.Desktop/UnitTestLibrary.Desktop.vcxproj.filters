@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="FooTest.cpp" />
+    <ClCompile Include="SListTest.cpp" />
+    <ClCompile Include="Foo.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTest.cpp" />
+    <ClCompile Include="DefaultHashTest.cpp" />
+    <ClCompile Include="HashmapTest.cpp" />
+    <ClCompile Include="DefaultEqualityTest.cpp" />
+    <ClCompile Include="DatumTest.cpp" />
+    <ClCompile Include="ScopeTest.cpp" />
+    <ClCompile Include="TypeRegistryTest.cpp" />
+    <ClCompile Include="AttributedTest.cpp" />
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonTest.cpp" />
+    <ClCompile Include="JsonFoo.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseTests.cpp" />
+    <ClCompile Include="TestParseHelper.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="StackTest.cpp" />
+    <ClCompile Include="FooFactory.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTest.cpp" />
+    <ClCompile Include="EntitySectorWorldTests.cpp" />
+    <ClCompile Include="TestEntity.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionTest.cpp" />
+    <ClCompile Include="TestAction.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionListTest.cpp" />
+    <ClCompile Include="ActionParsingTest.cpp" />
+    <ClCompile Include="Bar.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="TestEventSubscribers.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="EventQueueTests.cpp" />
+    <ClCompile Include="EventTests.cpp" />
+    <ClCompile Include="EventMessageAttributedTests.cpp" />
+    <ClCompile Include="ReactionAttributedTests.cpp" />
+    <ClCompile Include="ActionEventTests.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Foo.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFoo.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="TestParseHelper.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="FooFactory.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="TestEntity.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAction.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="TestEventSubscribers.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Support Code">
+      <UniqueIdentifier>{8006acfa-87b1-4775-8217-a10bb9d0f99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{59010dad-cf2b-4143-868f-9f3d7e4ff2f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\ArraysIncluded.json">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\ActionListSwitch.json">
+      <Filter>Content</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Content\NestedScope.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\NestedScopeArray.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\NoArrayOrNestedScope.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\World.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Sector.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\TestAction.json" />
+    <CopyFileToFolders Include="Content\ActionList.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

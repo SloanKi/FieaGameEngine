@@ -1,0 +1,32 @@
+{
+  "ExternalInteger": {
+    "type": "integer",
+    "value": "23"
+  },
+  "ExternalIntArr": {
+    "type": "integer",
+    "value": [ "0", "1", "2" ]
+  },
+  "NestedScope": {
+    "type": "table",
+    "value": {
+      "Name": {
+        "type": "string",
+        "value": "Bob"
+      },
+      "Health": {
+        "type": "integer",
+        "value": "100"
+      },
+      "NestedScope2": {
+        "type": "table",
+        "value": {
+          "DPS": {
+            "type": "float",
+            "value" : "22.3"
+          }
+        }
+      }
+    }
+  }
+}

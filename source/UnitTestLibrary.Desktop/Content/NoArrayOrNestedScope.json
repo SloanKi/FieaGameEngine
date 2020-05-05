@@ -1,0 +1,22 @@
+{
+  "ExternalInteger": {
+    "type": "integer",
+    "value": "23"
+  },
+  "ExternalFloat": {
+    "type": "float",
+    "value": "5.0"
+  },
+  "ExternalVector": {
+    "type": "vector",
+    "value": "vec4(5.000000, 5.000000, 5.000000, 5.000000)"
+  },
+  "ExternalMatrix": {
+    "type": "matrix",
+    "value": "mat4x4((5.000000, 0.000000, 0.000000, 0.000000), (0.000000, 5.000000, 0.000000, 0.000000), (0.000000, 0.000000, 5.000000, 0.000000), (0.000000, 0.000000, 0.000000, 5.000000))"
+  },
+  "ExternalString": {
+    "type": "string",
+    "value": "Meow"
+  }
+}

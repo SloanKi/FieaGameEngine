@@ -1,0 +1,47 @@
+{
+  "NestedScopeArr": {
+    "type": "table",
+    "value": [
+      {
+        "type": "table",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Table1"
+          }
+        }
+      },
+      {
+        "type": "table",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Table2"
+          }
+        }
+      },
+      {
+        "type": "table",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Bob"
+          },
+          "Health": {
+            "type": "integer",
+            "value": "100"
+          },
+          "NestedScope2": {
+            "type": "table",
+            "value": {
+              "DPS": {
+                "type": "float",
+                "value": "22.3"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
